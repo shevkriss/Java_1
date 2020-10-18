@@ -16,7 +16,7 @@ public class Main {
         System.out.println("Size was: " + LinkedList.listSize(theList));
         for (i = 0; i < 10; i += 2)
             theList.remove(i);
-        //theList.remove(3);
+        theList.remove(3);
         for (i = 0; i < 10; i++)
             if ((i % 2 == 0) == (theList.find(i).isValid()))
                 System.out.println("Find fails!");
